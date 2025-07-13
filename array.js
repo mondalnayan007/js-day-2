@@ -17,3 +17,14 @@ marks[4] = Math.round(Math.random()*100);
 
 console.log(marks);
 
+
+
+var arr = ['sakib','rakib','akash', 'tamim'];
+console.log(arr);
+
+arr.unshift('nayan');
+arr.unshift('rafi');
+arr.shift();
+console.log(arr);
+var part = arr.slice(2);
+console.log(part);
